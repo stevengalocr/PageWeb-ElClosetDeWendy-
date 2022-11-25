@@ -143,51 +143,70 @@ Guess y Adidas</p>
 				</div>
 
 				<div class="container-fluid">
-				    <div class="row">
-				        <div class="col-lg-6 p-0">
-				            <section class="section border-0 bg-color-primary h-100 m-0">
-				                <div class="row justify-content-end py-5-5 m-0 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="350">
-				                    <div class="col-half-section col-half-section-right ps-4">
-				                        <h3 class="font-weight-bold text-color-light line-height-1 text-4 ls-0 mb-1">El closet de Wendy</h3>
-				                        <h2 class="text-color-light font-weight-bold text-8 ls-0 mb-3">Haz tu pedido:</h2>
-				                        <p class="text-color-light opacity-7 font-weight-light text-3-5 line-height-9">Envianos un correo electrónico con los artículos que te gustaron para poder ponernos en contacto con usted.</p>
-				                        <form class="contact-form form-style-4 form-style-4-border-light-2 form-errors-light pe-lg-5" action="php/contact-form.php" method="POST">
-				                            <div class="row mb-2 mx-0">
-				                                <input type="text" class="form-control font-weight-semibold text-color-light px-1 py-3" name="name" placeholder="* Nombre del cliente" data-msg-required="Este campo es requerido" id="name" required="" />
-				                            </div>
-				                            <div class="row mx-0 mb-3">
-				                                <input type="email" class="form-control font-weight-semibold text-color-light px-1 py-3" name="email" placeholder="* Correo electrónico o número de telefono" data-msg-required="Este campo es requerido" id="email" required="" />
-				                            </div>
-				                            <div class="row mb-4 mx-0">
-				                                <textarea name="message" id="message" rows="4" class="form-control form-control font-weight-semibold text-color-light px-1 py-3" placeholder="* Pedido"></textarea>
-				                            </div>
-				                            <input type="submit" class="btn btn-light text-color-dark font-weight-bold positive-ls-3 btn-px-5 py-3" value="Enviar" />
-				                        </form>
-				                    </div>
-				                </div>
-				            </section>
-				        </div>
-				        <div class="col-lg-6 p-0">
-				            <section class="section section-no-border bg-dark overflow-hidden h-100 m-0">
-				                <div class="row py-5-5 m-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300">
-				                    <div class="col-half-section col-half-section-left ps-lg-5">
-				                        <h3 class="font-weight-bold text-color-light line-height-1 text-4 ls-0 mb-1">El closet de Wendy</h3>
-				                        <h2 class="text-color-light font-weight-bold text-8 ls-0 mb-3">Sobre nosotros</h2>
-				                        <p class="text-color-light opacity-7 font-weight-light text-3-5 line-height-9">Somos una tienda costarricense 100% virtual, el cual solo vende productos 100% originales, de alta calidad y con los mejores precios. Contamos con una cuenta de Instagram con más de 15k de seguidores. Hacemos envíos a todo el país. </p>
-				                        <div class="d-flex align-items-center">
-				                            <i class="icons icon-phone text-9 text-color-light position-relative bottom-1"></i>
-				                            <a href="https://api.whatsapp.com/send?phone=50670159738&text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20este%20art%C3%ADculo." target="_blank" class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5">(506) 7015-9738</a>
-				                        </div>
-				                        <div class="d-flex align-items-center my-5-5">
-				                            <img width="38" height="38" src="img/demos/finance/icons/email.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
-				                            <a class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5"> Wengalo24@gmail.com</a>
-				                        </div>
-				                        <a href="https://instagram.com/el_closet_de_wendy?igshid=YmMyMTA2M2Y=" target="_blank" class="btn btn-light text-color-dark font-weight-bold positive-ls-3 btn-px-5 py-3">Instagram</a>
-				                    </div>
-				                </div>
-				            </section>
-				        </div>
-				    </div>
+					<div class="row">
+						<div class="col-lg-6 p-0">
+							<section class="section border-0 bg-color-primary h-100 m-0">
+								<div class="row justify-content-end py-5-5 m-0 appear-animation"
+									data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="350">
+									<div class="col-half-section col-half-section-right ps-4">
+										<h3 class="font-weight-bold text-color-light line-height-1 text-4 ls-0 mb-1">El
+											closet de Wendy</h3>
+										<h2 class="text-color-light font-weight-bold text-8 ls-0 mb-3">Haz tu pedido:</h2>
+										<p class="text-color-light opacity-7 font-weight-light text-3-5 line-height-9">
+											Envianos un correo electrónico con los artículos que te gustaron para poder
+											ponernos en contacto con usted.</p>
+											<form class="contact-form form-style-4 form-style-4-border-light-2 form-errors-light pe-lg-5" method="POST" name="contact" netlify>
+												<div class="row mb-2 mx-0">
+													<input type="text" class="form-control font-weight-semibold text-color-light px-1 py-3" name="name" placeholder="* Nombre del cliente" data-msg-required="Este campo es requerido" id="name" required="" />
+												</div>
+												<div class="row mx-0 mb-3">
+													<input class="form-control font-weight-semibold text-color-light px-1 py-3" name="email" placeholder="* Correo electrónico o número de telefono" data-msg-required="Este campo es requerido" id="email" required="" />
+												</div>
+												<div class="row mb-4 mx-0">
+													<textarea name="message" id="message" rows="4" class="form-control form-control font-weight-semibold text-color-light px-1 py-3" placeholder="* Pedido"></textarea>
+												</div>
+												<button type="submit" class="btn btn-light text-color-dark font-weight-bold positive-ls-3 btn-px-5 py-3">Enviar</button>
+											</form>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div class="col-lg-6 p-0">
+							<section class="section section-no-border bg-dark overflow-hidden h-100 m-0">
+								<div class="row py-5-5 m-0 appear-animation" data-appear-animation="fadeInRightShorter"
+									data-appear-animation-delay="300">
+									<div class="col-half-section col-half-section-left ps-lg-5">
+										<h3 class="font-weight-bold text-color-light line-height-1 text-4 ls-0 mb-1">El
+											closet de Wendy</h3>
+										<h2 class="text-color-light font-weight-bold text-8 ls-0 mb-3">Sobre nosotros</h2>
+										<p class="text-color-light opacity-7 font-weight-light text-3-5 line-height-9">Somos
+											una tienda costarricense 100% virtual, el cual solo vende productos 100%
+											originales, de alta calidad y con los mejores precios. Contamos con una cuenta
+											de Instagram con más de 15k de seguidores. Hacemos envíos a todo el país. </p>
+										<div class="d-flex align-items-center">
+											<i
+												class="icons icon-phone text-9 text-color-light position-relative bottom-1"></i>
+											<a href="https://api.whatsapp.com/send?phone=50670159738&text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20este%20art%C3%ADculo."
+												target="_blank"
+												class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5">(506)
+												7015-9738</a>
+										</div>
+										<div class="d-flex align-items-center my-5-5">
+											<img width="38" height="38" src="img/demos/finance/icons/email.svg" alt=""
+												data-icon
+												data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
+											<a
+												class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5">
+												Wengalo24@gmail.com</a>
+										</div>
+										<a href="https://instagram.com/el_closet_de_wendy?igshid=YmMyMTA2M2Y="
+											target="_blank"
+											class="btn btn-light text-color-dark font-weight-bold positive-ls-3 btn-px-5 py-3">Instagram</a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
 				</div>
 
 
