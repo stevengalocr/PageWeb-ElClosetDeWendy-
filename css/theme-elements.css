@@ -11899,6 +11899,8 @@ html body .rounded-circle {
 .content-grid .content-grid-item .img-fluid {
 	display: inline-block;
 	flex: 0 0 auto;
+	height: "220px";
+ 	width: "392px";
 }
 
 .content-grid.content-grid-dashed .content-grid-item:before {
